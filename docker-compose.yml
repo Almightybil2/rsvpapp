@@ -12,7 +12,7 @@ services:
     - rsvpnet
 
  web:
-   image: teamcloudyuga/rsvpapp:mooc
+   image: almightybil2/rsvpapp:latestmost
    ports:
     - "5000:5000"
    environment:
